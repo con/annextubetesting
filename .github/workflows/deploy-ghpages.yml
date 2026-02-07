@@ -3,13 +3,15 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [master]
+    # Deploy on every push to master
+    # Filters ensure we only deploy when content changes
     paths:
       - 'videos/**'
       - 'playlists/**'
       - '.annextube/**'
       - '.gitattributes'
       - 'authors.tsv'
-  workflow_dispatch:  # Allow manual deployment
+  workflow_dispatch:  # Allow manual deployment via Actions tab
 
 permissions:
   contents: write
