@@ -1,0 +1,33 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'videos/**'
+      - 'playlists/**'
+      - '.annextube/**'
+      - '.gitattributes'
+      - 'authors.tsv'
+  workflow_dispatch:  # Allow manual deployment
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Need full history for git-annex
+
+      - name: Deploy to GitHub Pages
+        uses: con/annextube-action@main  # Use @v1 after first release
+        with:
+          ssh-private-key: ${{ secrets.DEPLOY_KEY }}
+          repo-path: .
+          gh-pages-branch: gh-pages
+          build-frontend: true
+          copy-data: true
