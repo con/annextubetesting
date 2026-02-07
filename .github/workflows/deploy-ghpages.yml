@@ -29,7 +29,8 @@ jobs:
         uses: con/annextube-action@main  # Use @v1 after first release
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          repo-path: .
-          gh-pages-branch: gh-pages
-          build-frontend: true
-          copy-data: true
+          # The following are action defaults, listed here for demonstration
+          # repo-path: .
+          # gh-pages-branch: gh-pages
+          # build-frontend: true
+          # copy-data: true
