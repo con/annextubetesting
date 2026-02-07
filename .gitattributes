@@ -26,3 +26,4 @@ comments.json annex.largefiles=anything
 *.jpeg annex.largefiles=anything
 *.png annex.largefiles=anything
 *.webp annex.largefiles=anything
+videos/2026/02/*/thumbnail.jpg annex.largefiles=nothing
