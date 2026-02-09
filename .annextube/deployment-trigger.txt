@@ -1,1 +1,1 @@
-Debug git annex get operation - Mon Feb  9 10:52:10 EST 2026
+Debug: Check git-annex remote availability - Mon Feb  9 10:58:20 EST 2026
