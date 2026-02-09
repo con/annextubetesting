@@ -29,8 +29,11 @@ jobs:
         uses: con/annextube-action@main  # Use @v1 after first release
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
+          annex-remote: github-lfs  # Fetch annexed content from git-lfs
           # The following are action defaults, listed here for demonstration
           # repo-path: .
           # gh-pages-branch: gh-pages
           # build-frontend: true
           # copy-data: true
+          # get-annex: try-get
+          # install-yt-dlp: true
