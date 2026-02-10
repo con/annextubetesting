@@ -1,4 +1,4 @@
-# Debug run #3: checking branches before prepare-ghpages
+# Debug run #4: testing fix for remote branch checkout
 name: Deploy to GitHub Pages
 
 on:
