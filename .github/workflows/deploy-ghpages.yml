@@ -1,4 +1,4 @@
-# Debug run #5: enhanced file type debugging
+# Debug run #6: add git annex sync before find
 name: Deploy to GitHub Pages
 
 on:
