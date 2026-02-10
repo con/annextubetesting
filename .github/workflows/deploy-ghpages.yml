@@ -11,6 +11,7 @@ on:
       - '.annextube/**'
       - '.gitattributes'
       - 'authors.tsv'
+      - '.github/workflows/**'
   workflow_dispatch:  # Allow manual deployment via Actions tab
 
 permissions:
