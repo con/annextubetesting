@@ -1,4 +1,4 @@
-# Debug run #2: checking core.symlinks config
+# Debug run #3: checking branches before prepare-ghpages
 name: Deploy to GitHub Pages
 
 on:
