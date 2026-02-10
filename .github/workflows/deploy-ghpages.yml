@@ -1,4 +1,4 @@
-# Debug run #4: testing fix for remote branch checkout
+# Debug run #5: enhanced file type debugging
 name: Deploy to GitHub Pages
 
 on:
