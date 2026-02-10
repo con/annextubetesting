@@ -1,3 +1,4 @@
+# Debug run #2: checking core.symlinks config
 name: Deploy to GitHub Pages
 
 on:
