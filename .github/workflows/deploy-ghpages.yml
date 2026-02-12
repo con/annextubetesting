@@ -1,4 +1,4 @@
-# Deploy with annextube v0.3.0
+# Deploy with v0.3.0 frontend
 name: Deploy to GitHub Pages
 
 on:
