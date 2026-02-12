@@ -1,4 +1,4 @@
-# Fix: disable filter.annex.process + strip .gitattributes
+# Use git annex unlock + disable annex filters for real content
 name: Deploy to GitHub Pages
 
 on:
