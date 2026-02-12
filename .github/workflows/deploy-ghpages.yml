@@ -1,4 +1,4 @@
-# Disable annex filters BEFORE unlock to prevent re-pointering
+# Unlock all annexed files + resolve all symlinks for Pages
 name: Deploy to GitHub Pages
 
 on:
