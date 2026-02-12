@@ -1,4 +1,4 @@
-# Unlock all annexed files + resolve all symlinks for Pages
+# Deploy with annextube v0.3.0
 name: Deploy to GitHub Pages
 
 on:
