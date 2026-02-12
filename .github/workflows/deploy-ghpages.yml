@@ -1,4 +1,4 @@
-# Fix: run git annex get directly instead of checking count first
+# Fix: git annex get + unlock to convert symlinks to real files
 name: Deploy to GitHub Pages
 
 on:
