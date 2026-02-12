@@ -1,4 +1,4 @@
-# Deploy with v0.3.0 frontend + vite outDir patch
+# Deploy with v0.3.0 frontend + baseUrl fix
 name: Deploy to GitHub Pages
 
 on:
