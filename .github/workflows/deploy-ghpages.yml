@@ -1,4 +1,4 @@
-# Deploy with v0.3.0 frontend
+# Deploy with v0.3.0 frontend + vite outDir patch
 name: Deploy to GitHub Pages
 
 on:
