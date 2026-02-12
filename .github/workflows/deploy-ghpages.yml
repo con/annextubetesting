@@ -1,4 +1,4 @@
-# Fix: git annex get + unlock to convert symlinks to real files
+# Fix: reconfigure git-lfs remote from SSH to HTTPS for Actions
 name: Deploy to GitHub Pages
 
 on:
