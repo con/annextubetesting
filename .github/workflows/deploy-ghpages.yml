@@ -1,4 +1,4 @@
-# Fix: bypass annex clean filter to commit real content
+# Fix: disable filter.annex.process + strip .gitattributes
 name: Deploy to GitHub Pages
 
 on:
