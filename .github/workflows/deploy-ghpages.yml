@@ -1,4 +1,4 @@
-# Debug run #6: add git annex sync before find
+# Fix: run git annex get directly instead of checking count first
 name: Deploy to GitHub Pages
 
 on:
