@@ -1,4 +1,4 @@
-# Fix: cp symlink targets instead of git annex unlock for real content
+# Fix: bypass annex clean filter to commit real content
 name: Deploy to GitHub Pages
 
 on:
