@@ -1,4 +1,4 @@
-# Fix: reconfigure git-lfs remote from SSH to HTTPS for Actions
+# Fix: cp symlink targets instead of git annex unlock for real content
 name: Deploy to GitHub Pages
 
 on:
